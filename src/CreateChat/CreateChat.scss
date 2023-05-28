@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Geo';
+    src: url('../assets/font/geometria_light.woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Geo';
+    src: url('../assets/font/geometria_medium.woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Geo';
+    src: url('../assets/font/geometria_bold.woff2');
+    font-weight: 700;
+}
+
+@mixin font($a, $b, $c, $d, $e) {
+    margin: 0;
+    font-size: $a;
+    font-family: $b;
+    font-weight: $c;
+    color: $d;
+    margin-bottom: $e;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.title {
+    @include font(40px, 'Geo', 500, rgb(53, 144, 129), 30px)
+}
+
+.input {
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid rgb(53, 144, 129);
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+    height: 100%;
+
+    &:focus {
+        outline: none;
+    }
+
+    & {
+        @include font(20px, 'Geo', 300, #333, 0px);
+    }
+}
+
+.input::placeholder {
+    @include font(20px, 'Geo', 300, #999999, 0)
+}
+
+.btn {
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    cursor: pointer;
+    padding: 9px 22px;
+    border-radius: 18px;
+    @include font (12px, 'Geo', 300, #fff, 0);
+    background-color: #008069;
+    margin-top: 30px;
+    position: relative;
+    min-width: 100.16px;
+    min-height: 33px;
+}
+
+.error {
+    border-bottom: 1px solid red;
+}
+
+.errorName {
+    position: absolute;
+    @include font(12px, 'Geo', 300, red, 0px);
+    bottom: -20px
+}
+
+label {
+    width: 25%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.loading::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: button-loading-spinner 0.75s cubic-bezier(0.55, 0.55, 0.55, 0.55) infinite;
+  }
+  
+  @keyframes button-loading-spinner {
+    from {
+      transform: rotate(0turn);
+    }
+  
+    to {
+      transform: rotate(1turn);
+    }
+  }
