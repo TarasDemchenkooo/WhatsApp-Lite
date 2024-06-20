@@ -59,4 +59,4 @@ module.exports = {
         historyApiFallback: true,
     },
     mode: production ? 'production' : 'development'
-}
+};
