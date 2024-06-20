@@ -1,3 +1,15 @@
+# WhatsApp Lite
+
+* [Getting started](#getting-started)
+  * [What is WhatsApp Lite](#whatsapp-lite)
+
+## Getting started
+
+
+
+
+## What is WhatsApp Lite
+
 Для запуска проекта требуется:
 1) Выполнить npm i в корне проекта
 2) Выполнить команду npm run dev и открыть приложение на 3001 порту
