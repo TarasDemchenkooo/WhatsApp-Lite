@@ -28,8 +28,8 @@ $ cd WhatsApp-Lite
 ```
 Install all packages and run the project:
 ```
-npm i
-npm run dev
+$ npm i
+$ npm run dev
 ```
 The [application](https://localhost:3001) will run on the localhost on port 3001.
 
