@@ -3,7 +3,7 @@
 * [Getting started](#getting-started)
   * [What is WhatsApp Lite](#what-is-whatsapp-lite)
   * [Green API](#green-api)
-  * [Run the app](run-the-app)
+  * [Run the app](#run-the-app)
 * [Usage](#usage)
 
 ## Getting started
