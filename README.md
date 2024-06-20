@@ -42,6 +42,6 @@ Search Page. Enter the phone number of the person you want to chat with.
 
 ![image](https://github.com/TarasDemchenkooo/WhatsApp-Lite/assets/111509370/8bab1d79-b432-4080-ad05-a8aa676d3077)
 
-Chat Page.
+Chat Page. Here you can chat with people.
 
-![image](https://github.com/TarasDemchenkooo/WhatsApp-Lite/assets/111509370/7a8fd681-cae1-44d2-8615-f394aa55845f)
+![image](https://github.com/TarasDemchenkooo/WhatsApp-Lite/assets/111509370/068fbe6a-b608-4cad-9533-9c52874cbecb)
