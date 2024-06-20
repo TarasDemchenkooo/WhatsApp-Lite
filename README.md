@@ -1,42 +1,47 @@
 # WhatsApp Lite
 
 * [Getting started](#getting-started)
-  * [What is WhatsApp Lite](#whatsapp-lite)
+  * [What is WhatsApp Lite](#what-is-whatsapp-lite)
+  * [Green API](#green-api)
+  * [Run the app](run-the-app)
+* [Usage](#usage)
 
 ## Getting started
 
+### What is WhatsApp Lite
+WhatsApp Lite is just a simplified version of the well-known messenger WhatsApp. You don't need to log in with your phone number and password. Instead, you can link your account to the API instance using a QR code and chat with people just like in the WhatsApp messenger.
 
+### Green API
+Green API is a free WhatsApp API for developers. To receive and send messages on WhatsApp, you need to sign up on the [official website](https://green-api.com), and then create an instance.
 
+![image](https://github.com/TarasDemchenkooo/WhatsApp-Lite/assets/111509370/6c315af6-b53f-48f0-ba0d-f4f0f0b4e071)
 
-## What is WhatsApp Lite
+After that, open the WhatsApp app and go to the "Linked Devices" section. Scan the QR code, which you can find by clicking on the created instance.
 
-Для запуска проекта требуется:
-1) Выполнить npm i в корне проекта
-2) Выполнить команду npm run dev и открыть приложение на 3001 порту
+![image](https://github.com/TarasDemchenkooo/WhatsApp-Lite/assets/111509370/905c649f-b8a8-4276-b172-8d79fedbae3d)
 
+### Run the app
+Clone the project with the following command:
+```
+$ git clone https://github.com/TarasDemchenkooo/WhatsApp-Lite.git
+$ cd WhatsApp-Lite
+```
+Install all packages and run the project:
+```
+npm i
+npm run dev
+```
+The [application](https://localhost:3001) will run on the localhost on port 3001.
 
-Авторизация через greenApi
-1) Пройдите по ссылке https://green-api.com
- 
-2) Зарегестрируйтесь на данном ресурсе, после чего создайте инстанс
- 
-3) Зайдите в приложение whatsApp и нажмите на 3 точки в правом верхнем углу экрана, и выберите пункт 'Связанные устройства'
-![image](https://github.com/TarasProshka/WhatsApp-Mirror/assets/111509370/f9e4ef54-ce7b-4a0e-8569-f97cb414eb34)
+## Usage
+This is the login page. Here, you need to enter your ApiToken and Id, which you can find on the page of the instance you created in Green API.
 
-4) Нажмите на кнопку 'Привязать устройство' и отсканируйте QR-код, который вы можете получить на странице инстанса
-![image](https://github.com/TarasProshka/WhatsApp-Mirror/assets/111509370/bcd7dd04-7c91-4320-9c91-4b12158ab2f6)
+![image](https://github.com/TarasDemchenkooo/WhatsApp-Lite/assets/111509370/536cce09-d2f4-4fbc-a2d4-71e542e55e66)
 
-5) Также на странице инстанса нажмите на кноку изменить и включите настройку 'Получать уведомления о входящих сообщениях и файлах' и сохраните изменения
-![image](https://github.com/TarasProshka/WhatsApp-Mirror/assets/111509370/540085c0-c00a-4460-bfcc-50ec377e94f2)
+Search Page. Enter the phone number of the person you want to chat with.
 
-Страница авторизации
-(idInstance и apiTokenInstance вы можете взять на странице инстанса)
-![image](https://github.com/TarasProshka/WhatsApp-Mirror/assets/111509370/817d2f65-a7ff-46fe-81e1-7ddbd949928d)
-![image](https://github.com/TarasProshka/WhatsApp-Mirror/assets/111509370/23c1b684-3df2-4a84-964f-7baa4e9ce42c)
+![image](https://github.com/TarasDemchenkooo/WhatsApp-Lite/assets/111509370/8bab1d79-b432-4080-ad05-a8aa676d3077)
 
-Страница ввода номера собеседника
-![image](https://github.com/TarasProshka/WhatsApp-Mirror/assets/111509370/12db6413-f08c-4d63-acd3-6d2d113b6a8d)
-![image](https://github.com/TarasProshka/WhatsApp-Mirror/assets/111509370/e6c1f21f-081d-45f5-be9a-46c27880ae61)
+Chat Page.
 
-Чат
-![image](https://github.com/TarasProshka/WhatsApp-Mirror/assets/111509370/f1b2493d-4220-4f9e-9aff-0aaf73a0653e)
+![image](https://github.com/TarasDemchenkooo/WhatsApp-Lite/assets/111509370/7a8fd681-cae1-44d2-8615-f394aa55845f)
